@@ -1,0 +1,25 @@
+/* 
+Block
+1- take full width if no width
+2- add line Break after and before
+3- respect  padding , margin , height , width
+ 
+
+inline
+no line break
+dont respect  height ,width 
+only respect left and right  padding , margin
+
+
+inline-Block
+
+*/
+
+
+div{
+    display: inline;
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+}

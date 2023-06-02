@@ -1,0 +1,13 @@
+div{
+    background-color: aqua;
+    
+    width: 300px;
+    padding: 10px;
+    /*  من مساحة العنصر */
+ 
+     /* من غير مساحة العنصر لكن مينفعش تحدد في كل اتجاه شكل معين   */
+    outline: 10px solid green;
+    border: 10px solid red;
+    /* outline-style: dashed; */
+    border-radius: 30px;
+}
