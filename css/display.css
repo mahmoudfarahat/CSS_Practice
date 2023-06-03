@@ -12,12 +12,24 @@ only respect left and right  padding , margin
 
 
 inline-Block
+inline elemnt 
+respect  padding , margin , height , width
+
+
+none 
+
 
 */
 
 
 div{
+    display: none; /* ومش بيسب مكانه في الشاشة */
+    display: block;
     display: inline;
+    display: inline-block;
+    visibility: hidden;   /* بس لما تخفيه بتسب مكانه في الشاشة */
+    visibility: visible;  /* default */  
+
     background-color: aqua;
     padding: 10px;
     margin: 10px;

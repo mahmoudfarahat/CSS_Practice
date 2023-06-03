@@ -1,0 +1,7 @@
+ .one , .two, .three {
+    padding: 10px;
+    border-bottom: 3px red solid;
+    background-color: antiquewhite;
+    margin: 10px 0;
+    color: blue;
+ }
