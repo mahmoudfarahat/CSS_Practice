@@ -1,1 +1,43 @@
+/* 
+ text-shadow : Horizanl   vertical  blur  color
+
  
+*/
+
+
+div{
+    
+    background-color: #ecaaaa;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0 0px red ;
+    /* text-align: center; */
+    direction: ltr; 
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: none;
+    text-transform: capitalize ;  /* اول حرف كابيتل*/
+    text-transform: uppercase;
+    text-transform: lowercase;
+    /* letter-spacing: 2px; */
+    /* text-indent: 200px; */
+    /* line-height: 1.7; */
+    /* word-spacing: 5px; */
+    width: 300px;
+    white-space: normal; /* default بيعمل wrap */
+    white-space: nowrap;
+    /* word-break:normal; */
+    /* word-break: break-word;  */
+    overflow: hidden;
+    text-overflow: ellipsis ;
+
+
+}
+
+/* div:hover{
+    overflow: visible;
+} */
+
+img{
+    vertical-align: middle;
+}
