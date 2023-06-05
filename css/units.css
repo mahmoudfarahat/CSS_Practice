@@ -1,0 +1,30 @@
+/* 
+CSS Units 
+    px
+    em => one Time
+    rem => Root 
+    vw  => view Port Width
+    percentage
+
+read
+    vmin
+    vh    
+
+
+    Default Font Size for web page is 16px 
+*/
+body{
+    font-size: 40px;
+}
+
+
+div{
+    font-size: 30px;
+}
+
+span{
+    font-size: 2em;   /* مرتين من الكلاس اللي وراث منه*/
+    font-size: 1rem; /* بياخد من الروت اللي هو 16 */
+    font-size: 5vw;  /*   عرض الصفحة * واحد من المائة * 5*/
+    font-size: 15px;
+}
