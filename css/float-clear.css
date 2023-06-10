@@ -1,0 +1,21 @@
+
+
+.parent {
+    background-color: red;
+    padding: 10px;
+    /* overflow: hidden; */
+    /* height: 50px; */
+}
+
+.parent div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    width: 20%;
+    float: left; /* العناصر بتعوم برا الفلو بتاعك*/
+}
+
+.clear{
+    clear: both;
+}

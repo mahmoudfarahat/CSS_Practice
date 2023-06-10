@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+div{
+    float: left;
+    background-color: aquamarine;
+    width: calc(95% / 4);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left:1% ;
+}
+
+/*
+content width is 100%
+
+5 spaces 1% * 5 =? 5% from content width
+
+95% available space
+
+4 elements the width is :  95%/4
+
+*/
