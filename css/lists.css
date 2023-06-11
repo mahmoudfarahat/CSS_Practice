@@ -1,0 +1,13 @@
+ul{
+    list-style-type:lower-greek;
+    list-style-position: inside;
+    list-style-image: url();
+    list-style: armenian inside  ;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    background-color: #EEE;
+    margin-bottom: 20px;
+}
