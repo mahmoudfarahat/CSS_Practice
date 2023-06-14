@@ -26,4 +26,6 @@
 /* @import url('lists.css');  */
  
 /* @import url('table.css');  */
-@import url('pseudo-classes.css'); 
+/* @import url('pseudo-classes.css');  */
+
+@import url('pseudo-elements.css'); 
