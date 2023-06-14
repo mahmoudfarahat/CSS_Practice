@@ -1,0 +1,48 @@
+
+/*
+
+*/
+
+.one{
+    background-color: red;
+    color: white;
+}
+
+.two{
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+}
+
+
+
+.ch:checked + label {
+        color: red;
+}
+
+a:visited{
+    color: aqua;
+}
+
+/* has no children or empty*/
+div:empty {
+    border : 1px solid red
+}
+
+.in{
+    border: 1px solid black
+}
+
+.in:focus{
+    border-color: yellow ;
+    outline: none;
+}

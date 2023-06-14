@@ -1,16 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 table{
     width: 100%;
-    border: 1px solid #CCC;
-    border-spacing: 8px; /* الحواف بين الخلايا*/
+    /* border: 1px solid #CCC; */
+    border-spacing: 1px; /* الحواف بين الخلايا*/
 }
 
 table td {
     padding: 15px;
     background-color: #EEE;
+    border: 1px solid #ccc;
 }
 table thead td {
     text-align: center;
     font-weight: bold;
     background-color: greenyellow;
     color: #fff;
+    border-color: red ;
 }
