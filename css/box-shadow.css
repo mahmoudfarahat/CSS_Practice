@@ -1,0 +1,14 @@
+/*
+        h-shadow | v-shadow | blue | spread | color | inset
+
+*/
+
+
+div{
+
+    padding: 20px ;
+    background-color: #eee;
+    margin: 20px auto;
+    width: 300px;
+    box-shadow:  0 0 10px 0 rgb(0 0 0 / 28%)  ,   0 0 10px 0 rgba(223, 36, 36, 0.28) ;
+}

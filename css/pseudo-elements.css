@@ -34,6 +34,7 @@ color: yellow;
 .parent {
     margin-bottom: 20px;
     overflow: hidden;
+    
 }
 
 .one {
@@ -79,7 +80,7 @@ hr {
 
 .after::before{
     content: ''; /* لازم تكون موجودة*/
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     width: 0;
     height: 0;
     position: absolute;
@@ -89,5 +90,16 @@ hr {
     border-color: transparent green transparent transparent;
     
 
-    
+
+}
+
+.parent{
+    counter-increment: members-count;
+}
+
+
+.one::after{
+    /* content: counter(members-count); */
+    content: attr(data-text);
+    color: aqua;
 }

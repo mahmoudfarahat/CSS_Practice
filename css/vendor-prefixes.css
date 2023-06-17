@@ -1,0 +1,14 @@
+
+
+
+
+
+ 
+.class{
+   -webkit-border-radius : 10px ;  /* chrome - safari - new opera verison */
+   -moz-border-radius : 10px ; /* Firebox */
+   -o-border-radius : 10px ; /* old version of opera */
+   -ms-border-radius : 10px ; /*IE - Edge  */
+    border-radius: 10px;
+
+}
