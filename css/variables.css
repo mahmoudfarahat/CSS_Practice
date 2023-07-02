@@ -1,0 +1,17 @@
+/*
+css Variables
+--Global Variable
+--Local Variable
+var(Variable Name , Fallback Value)
+*/
+
+:root{
+    --mainColor : blue;
+}
+
+
+
+
+.main{
+    background-color: var(--mainColor, orange);
+}

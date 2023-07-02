@@ -1,0 +1,44 @@
+
+/*
+
+1- only vertical margin collapse 
+
+2- bigger margin win
+
+3- margin collapsing with elements without anything betweem
+
+*/
+
+.parent{
+    overflow: hidden;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    background-color: #eee;
+}
+.one {
+background-color: aqua;
+}
+.two{
+background-color: blue;
+}
+.one , .two{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.down{
+    background-color: green;
+    color: white;
+    height: 90px;
+    margin-top: 20px;
+}
+.up{
+    background-color: rgb(147, 201, 147);
+    color: white;
+    height: 90px;
+    margin-bottom: 20px;
+}
+ 

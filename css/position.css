@@ -40,3 +40,20 @@ div{
     background-color: #EEE;
     /* position: relative; */
 }
+
+
+.container {
+    /* Set a height for the container to enable scrolling */
+    height: 300px;
+    overflow: auto;
+  }
+  
+  .sticky-button {
+    position: sticky;
+    top: 20px; /* Adjust the value according to your desired position */
+    /* Additional styles for your button */
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+  }
