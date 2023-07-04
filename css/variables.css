@@ -15,3 +15,11 @@ var(Variable Name , Fallback Value)
 .main{
     background-color: var(--mainColor, orange);
 }
+
+
+
+.local {
+    --mainColor : rgb(202, 202, 231);
+    background-color: var(--mainColor, orange);
+    
+}

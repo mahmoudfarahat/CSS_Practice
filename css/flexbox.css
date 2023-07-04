@@ -1,0 +1,62 @@
+/*
+ 
+ 
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.flex{
+   
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: column ;
+    flex-direction: row; /* default and flex with rtl and ltr*/
+    flex-wrap: nowrap; /* default */
+    flex-wrap: wrap;  
+    flex-wrap: wrap-reverse;  
+    flex-flow:  row wrap; /*  flex-direction +  flex-wrap */
+    justify-content: flex-start; /* default*/
+    justify-content: flex-end; /* default*/
+justify-content: center; /* افقي*/
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+
+
+
+}
+
+.flex div{
+ 
+    background-color: #ff0101;
+    color: white;
+    width: calc(97% / 5);
+    text-align: center;
+    padding: 20px;
+}
+.float{
+    overflow: hidden;
+    background-color: #eee;
+    width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.float div{
+ 
+    background-color: #ff0101;
+    color: white;
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+}
