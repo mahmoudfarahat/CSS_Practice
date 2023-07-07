@@ -1,0 +1,14 @@
+img{
+    transition: .3s;
+    filter: grayscale(100%);
+    filter: blur(4px);
+    filter: invert(100%);
+    
+
+}
+
+img:hover{
+    filter: blur(0);
+    filter: invert(0%);
+
+}

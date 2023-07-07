@@ -1,0 +1,27 @@
+/*
+linear-gradient(Direction || Angle , Color Stop 1 , Color Stop 2 , .....)
+*/
+div{
+    /* background-image: linear-gradient(to right , red,green);
+    background-image: linear-gradient(to left , red,green);
+    background-image: linear-gradient(to top , red,green);
+    background-image: linear-gradient(30deg , red 80%,green,yellow,blue,white,black,orange); */
+
+    margin: 20px auto;
+    position: relative;
+background-color: #eee;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+div::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    background-color: red;
+    height: 10px;
+    background-image: linear-gradient(to right , #2980b9 20%, #27ae60 20%,#27ae60 40%,#d35400 40%,#d35400 60%,#8e44ad 60%,#8e44ad 80% , #c0392b 80%);
+}

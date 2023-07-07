@@ -1,7 +1,7 @@
 /*
  
  
-
+flex : flex Grow- flex Shroml - Flex Basis  0  1   auto
 */
 
 * {
@@ -15,7 +15,7 @@
     padding: 20px;
     margin: 20px auto;
     display: flex;
-
+display:inline-flex;
     flex-direction: row-reverse;
     flex-direction: column-reverse;
     flex-direction: column ;
@@ -26,12 +26,15 @@
     flex-flow:  row wrap; /*  flex-direction +  flex-wrap */
     justify-content: flex-start; /* default*/
     justify-content: flex-end; /* default*/
-justify-content: center; /* افقي*/
-justify-content: space-between;
+    justify-content: center; /* افقي*/
+    justify-content: space-between;
 justify-content: space-around;
 justify-content: space-evenly;
-
-
+align-items:  stretch; /*default طولي*/
+align-items:  center;  
+align-items:  flex-end;  
+align-items:  flex-start;  
+align-content: flex-end; /*بياخد الكونتك كله*/
 
 }
 
@@ -42,6 +45,7 @@ justify-content: space-evenly;
     width: calc(97% / 5);
     text-align: center;
     padding: 20px;
+   
 }
 .float{
     overflow: hidden;
@@ -59,4 +63,63 @@ justify-content: space-evenly;
     width: 25%;
     text-align: center;
     padding: 20px;
+}
+
+.center{
+height: 300px;
+width: 300px;
+background-color: aqua;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.flex2{
+   background-color: #eee;
+   width: 800px;
+   padding: 20px;
+   margin: 20px auto;
+   display: flex;
+
+}
+
+.flex2 div{
+
+    background-color: red;
+    color: white;
+    width: 88px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+    flex-grow: 0; /*default*/
+    flex-grow: 1;
+;
+}
+
+.flex2 div:nth-child(1){
+
+    background-color: red;
+    color: white;
+    width: 88px;
+    text-align: center;
+    height: 50px;
+    padding: 20px;
+    margin-right: 5px;
+    flex-grow: 0; /*default*/
+    flex-grow: 3;
+    align-self: flex-end;
+}
+.flex2 div:nth-child(3){
+
+    background-color: red;
+    color: white;
+    width: 88px;
+    text-align: center;
+    padding: 20px;
+    margin-right: 5px;
+    flex-shrink: 3;
+    order: 6;
+    flex-basis: 300px; /* height and width and respet max width*/
 }
