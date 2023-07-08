@@ -7,7 +7,7 @@
     width: 800px;
     height: 500px;
     background-color: #eee;
-    display: -ms-inline-grid;
+    /* display: -ms-inline-grid; */
     display: grid; 
     grid-template-columns: 100px 100px 100px; 
     grid-template-columns: 25%  50% 25%;
@@ -19,7 +19,26 @@
     grid-template-columns: 100px 100px 1fr; /* fraction is greedy*/
     grid-template-columns: 100px 100px 1fr 2fr;
     grid-template-columns: auto auto 1fr 1fr; /* اوتو بياخد مساحة على قد المساحة اللي جواه */
-     
+    grid-template-columns:  repeat(4,1fr);
+    grid-template-columns:  repeat(6,auto);
+    grid-template-columns:  repeat(6,1fr);
+
+    /* grid-template-rows: 100px 200px 100px;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-rows: 300px auto 100px;
+    grid-template-rows: auto auto 1fr;
+    grid-template-rows: repeat(2, 100px) 1fr;
+    grid-template-rows: repeat(3, 1fr)  ;
+    grid-template-rows: repeat(3, auto)  ; */
+
+    row-gap: 20px;
+    column-gap:20px ;
+    gap: 10px 10px;
+
+/* 
+    justify-content: space-between;
+    align-content: flex-start;
+     */
 }
 
 .parent div{
@@ -29,4 +48,13 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
+
+ 
+}
+
+.parent div:nth-child(1){
+    grid-column: 1 /5;
+    grid-column: span 2;
+    grid-column: 2 / span 3 ;
+
 }
