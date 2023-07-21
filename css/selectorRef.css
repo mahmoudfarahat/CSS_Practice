@@ -1,0 +1,35 @@
+/*
+
+* => جميع العناصر في الصفحة
+
+p , div , h2
+
+div p  => maybe not direct  البراجرف اللي جوا ديف
+
+.classone.classtwo   معاه الاثنين دول
+
+p.class-name   براجف فيه الكلاس دا 
+
+
+.class-name > .child => direct child  
+
+div + p  =>  برجاف قبله ديف
+
+p ~ div    اي ديف قبله برجاف
+
+[title]
+
+element[title]
+
+element[title=value]
+
+[title~=value] => contains a word
+
+[title*=value] => contains a string
+
+[title^=value] => start with a string
+
+:first-child  اول ابن في الاب بتاعه
+
+:last-child  اخر ابن في الاب بتاعه
+*/
