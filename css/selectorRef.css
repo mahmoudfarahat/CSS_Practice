@@ -10,7 +10,6 @@ div p  => maybe not direct  البراجرف اللي جوا ديف
 
 p.class-name   براجف فيه الكلاس دا 
 
-
 .class-name > .child => direct child  
 
 div + p  =>  برجاف قبله ديف
@@ -32,4 +31,49 @@ element[title=value]
 :first-child  اول ابن في الاب بتاعه
 
 :last-child  اخر ابن في الاب بتاعه
+
+:first-of-type  
+
+:last-of-type 
+
+:only-child
+
+:only-type
+
+:not(:first-child)
+
+:nth-child(2) ثاني عنصر في الاب بتاعه
+
+:nth-child(even)
+
+:nth-child(odd)
+
+:nth-last-child()
+
+:nth-of-type()
+
+:nth-last-of-type()
+
+:root
+
+:checked
+
+:empty
+
+:disabled
+
+:required
+
+:focus
+
+::selection لما احددها بالماوس 
+
+::placeholder
+
+
 */
+
+input[type="checkbox"]:checked + label {
+    /* غير لون اللابل بس لازم يكون قبله انبت*/
+    color: red;
+}
